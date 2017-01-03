@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mutual Exclusion Tetris</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="connect">Connect to P2P network</string>
+    <string name="play">Play</string>
+    <string name="close_app">Exit</string>
+    <string name="logicalclock_algo">Ricart-Agrawala algorithm</string>
+    <string name="token_algo">Raymond’s algorithm</string>
+    <string name="quorum_algo">Agrawal-El Abbadi algorithm</string>
+    <string name="playername">Player Name</string>
+</resources>

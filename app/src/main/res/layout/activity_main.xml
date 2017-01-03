@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tetris_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:keepScreenOn="true">
+
+    <EditText
+        android:id="@+id/etPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/playername"
+        android:ems="10"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/connect"
+        android:text="@string/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+    <RadioGroup
+        android:id="@+id/radioAlgorithm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/radioLogicalClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logicalclock_algo"
+            android:textColor="@android:color/black"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioToken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/token_algo" />
+
+        <RadioButton
+            android:id="@+id/radioQuorum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/quorum_algo" />
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#88000000"
+        android:gravity="center"
+        android:text="@string/play"
+        android:textColor="#FFFFFFFF"
+        android:visibility="gone"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/closeApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#88000000"
+        android:gravity="center"
+        android:text="@string/close_app"
+        android:textColor="#FFFFFFFF"
+        android:visibility="gone"
+        android:textSize="50sp">
+    </Button>
+
+
+
+</LinearLayout >
