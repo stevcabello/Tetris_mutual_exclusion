@@ -31,6 +31,9 @@ Inside the Globals.java file change the IP_SERVER constant value with the IP
 address of your machine, this will act as the local server.
 
 
+#Demo
+A video of the application functionality --> https://youtu.be/UC7zSaU3n2s
+
 #Project important sources
 - The game engine is based on:
     https://github.com/JLLLinn/Tetris-Game
