@@ -1,5 +1,7 @@
 # MUTUAL EXCLUSION TETRIS
 
+Multiplayer adaptation of tetris game by using Mutual Exclusion algorithms and P2P technology.
+
 This version of Tetris relies on a Peer to Peer network for the communication
 between peers. However, it uses a local server to connect each peer into the
 network and also provides information about the list of peers connected at the
